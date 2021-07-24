@@ -98,3 +98,9 @@ body {
   border: none;
   border-radius: 3px;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
