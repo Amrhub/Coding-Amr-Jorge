@@ -1,0 +1,100 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/background.jpeg");
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(251.1, 72.1%, 66.3%);
+  opacity: 90%;
+  overflow: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 90%;
+}
+
+.header-page {
+  text-align: center;
+}
+
+.header-page #title {
+  font-size: 3rem;
+  margin-block-end: 10px;
+  margin-block-start: 30px;
+}
+
+.header-page #description {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.form-page {
+  background: hsl(251.1, 72.1%, 10.3%);
+  color: white;
+  padding-block: 50px;
+  padding-inline: 30px;
+  margin-block-start: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-block: 20px;
+}
+
+.form-group p,
+.form-group label,
+.form-group #name,
+.form-group #number,
+.form-group #comment,
+.form-group #dropdown,
+.form-group #email {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  margin-block-start: 10px;
+}
+
+.form-group .form-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group .form-options label {
+  margin-block: 0;
+}
+
+#submit {
+  width: 100%;
+  background: green;
+  color: white;
+  font-size: 1.5rem;
+  padding-block: 20px;
+  border: none;
+  border-radius: 3px;
+}
