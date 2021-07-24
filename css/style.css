@@ -7,7 +7,6 @@
 }
 
 body {
-  background-image: url("../img/background.jpeg");
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: larger;
@@ -15,12 +14,17 @@ body {
   width: 100vw;
 }
 
+.image {
+  object-fit: fill;
+  position: fixed;
+}
+
 .container {
   color: white;
+  background-color: hsl(251.1, 72.1%, 66.3%);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: hsl(251.1, 72.1%, 66.3%);
   opacity: 90%;
   overflow: auto;
   top: 0;
